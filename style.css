@@ -1,0 +1,325 @@
+body{
+    background-color: cadetblue;
+    margin-top:none;
+}
+*{
+    margin-bottom:5px;
+}
+.bc{
+    margin-top:10px;
+    height:780px;
+    background-color: black;
+    background-size: cover;
+}
+
+
+
+.b1{
+    height:721px;
+    background-image: url(/Images/b1.jpg);
+    background-size:cover;
+    z-index: 0;
+}
+.fav{
+    z-index:1;
+    height:90px;
+    width:156px;
+    position:relative;
+    margin-left:150px;
+}
+.globe{
+    height:32px;
+    background-color: white;
+}
+.eng{
+    width:126px;
+    height:32px;
+    border:2px solid white;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin-top: 25px;
+    border-radius:4px;
+    margin-left:58.64rem;
+}
+.select{
+    background-color: transparent;
+    color:white;
+    border:transparent;
+    font-family: sans-serif;
+}
+.sign{
+    width:72px;
+    height:32px;
+    background-color: #E50914;
+    color:white;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin-top:25px;
+    margin-left:15px;
+    border-radius:4px;
+}
+.sign:hover{
+    cursor:pointer;
+    background-color: brown;
+}
+.logo{
+    display:flex;
+}
+h1{
+    color:white;
+    font-size:3rem;
+    font-weight:900;
+    display: flex;
+    justify-content: center;
+    margin-top:12rem;
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+}
+p{
+    color:white;
+    font-size: 1.5rem;
+    font-weight: 400;
+    text-align:center;
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+}
+h3{
+    font-size: 1.25rem;
+    font-weight: 400;
+    line-height: 1.875rem;
+    color:white;
+    text-align:center;
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+}
+.typing{
+    margin-top:15px;
+    height:56px;
+    width:376px;
+    min-height: 16px;
+    min-width: 16px;    
+    transition: color 250ms cubic-bezier(0.5, 0, 0.1, 1) 0s;
+    color: transparent;
+    background-color: transparent;
+    border:2px solid wheat;
+    padding-left:5px;
+    border-radius:4px;
+    color:white;
+}
+.get-started{
+    margin-top:15px;
+    background-color:  #E50914;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    color:white;
+    width:201px;
+    height:56px;
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+    font-size:1.5rem;
+    font-weight:600;
+    margin-left:7px;
+    padding:2px;
+    cursor:pointer;
+    border-radius:4px;
+}
+.input{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    color:aliceblue;
+}
+input::placeholder{
+    color:rgb(137, 126, 126);
+    font-size:medium;
+}
+input:active{
+        min-height:16px;
+        min-width: 16px;
+        cursor:text;
+}
+
+
+
+
+.b2{
+    display:flex;
+    justify-content:space-evenly;
+    align-items:center;
+}
+.b2-text {
+    margin-bottom:290px;
+    text-align:center;
+    width:807px;
+    height:61px;
+    font-size: 3rem;
+    font-weight: 900;
+    color:white;
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif ;
+}
+.b2-text p{
+    width: 550pxpx;
+    height: 60px;
+    text-align: center;
+    margin-left: 102px;
+}
+.b2-img{
+    width:500px;
+    background-color: black;
+    height:475px;
+    background-size:contain;
+    background-image: url(/Images/poster.jpg);
+}
+
+
+
+
+
+.b3{
+    display:flex;
+    justify-content: space-evenly;
+    align-content:center;
+}
+.b3-text{
+    margin-top:180px;
+    display:inline-block;
+    align-content: center;
+    height:250px;
+    width:700px;
+    color:white;
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif ;
+    font-size: 2rem;
+    padding-top:0 rem;
+}
+.b3-text h2{
+    margin-top:100px;
+    display:inline;
+    font-weight: 900;
+    width:756px;
+    height:123px;
+    margin: 1rem 0 0;
+}
+.b3-text p{
+    display:inline;
+    font-size: 1.7rem;
+    font-weight: 400;
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+}
+.b3-img{
+    margin:3rem 0 0;
+    width:756px;
+    height:567px;
+}
+
+
+
+.b4{
+    margin:0;
+}
+.b4-img{
+    width:650px;
+    background-color: black;
+    height:475px;
+    background-size:contain;
+    background-image: url(/Images/b4.png);
+}
+
+
+
+.b5-img{
+    width:600px;
+    height:500px;
+}
+.b5{
+    margin:0;
+}
+
+
+
+
+.foot1{
+    height:927px;
+    background-color: black;
+}
+.box1{
+    padding-top:40px;
+    height:61px;
+    width:1638px;
+    font-size:2rem;
+    font-weight:900;
+    font-family: Arial, Helvetica, sans-serif;
+    color:#FFFFFF;
+    text-align:center;
+}
+
+.button{
+    cursor:pointer;
+    display:inline-block;
+    justify-content: center;
+    align-items:center;
+    height:85px;
+    width:1300px;
+    font-size:3rem;
+    color:#FFFFFF;
+    text-align:center;
+    background-color: darkslategray;
+    box-sizing:content-box;
+    margin-left:180px;
+    margin-bottom:15px;
+}
+.one{
+    background: none;
+    border:none;
+    color:#FFFFFF;
+    font-size:2rem;
+    text-align:center;
+}
+
+
+
+
+
+.foot2{
+    
+    height: 430px;
+    background-color: #000000;
+    font-size:normal;
+}
+.foot2 p{
+    height:45px;
+    display:inline;
+}
+.foot2 a{
+    margin-left:0px;
+    color:#FFFFFF;
+    width:1536px;
+}
+.contact{
+    padding-top:50px;
+    padding-left:100px;
+}
+.panel2{
+    margin-left:90px;
+    color:white;
+    display:flex;
+    justify-content:space-evenly;
+    align-items:center;
+    width:1500px;
+    height:244px;
+}
+.one1{
+    height:200px;
+    width:80px;
+    margin:50px;
+    padding:5px;
+    font-size:1rem;
+}
+.two2{
+    height:200px;
+    width:80px;
+    font-size:1rem;
+}
+.three3{
+    height:200px;
+    width:80px;
+    font-size:1rem;
+}
